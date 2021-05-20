@@ -1,0 +1,30 @@
+/*
+ * bicicleteria.h
+ *
+ *
+ *
+ */
+
+#include "servicio.h"
+#include "trabajo.h"
+
+typedef struct{
+    int id;
+    int acumulador;
+
+}eAuxiliar;
+
+int menu();
+int altaTrabajo(eTrabajo lista[], int tamTrabajo, eServicio listaServicio[]);
+eTrabajo pedirDatosTrabajo(eServicio listaServicio[]);
+void modificarTrabajo(eTrabajo lista[], int tamTrabajo, eServicio listaServicio[]);
+void mostrarListadoDeTrabajos(eTrabajo lista[], int tam);
+void mostrarUnTrabajo(eTrabajo unTrabajo);
+void totalPesosDeServicio(eTrabajo listaTrabajo[], int tamTrabajo, eServicio listaServicio[], int tamServicio);
+
+#ifndef BICICLETERIA_H_
+#define BICICLETERIA_H_
+
+
+
+#endif /* BICICLETERIA_H_ */

@@ -1,0 +1,18 @@
+/*
+ * bicicleteria.h
+ *
+ *
+ *
+ */
+
+#include "servicio.h"
+#include "trabajo.h"
+
+void menu();
+
+#ifndef BICICLETERIA_H_
+#define BICICLETERIA_H_
+
+
+
+#endif /* BICICLETERIA_H_ */

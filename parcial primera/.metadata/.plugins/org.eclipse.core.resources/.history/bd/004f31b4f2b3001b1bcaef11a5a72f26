@@ -1,0 +1,24 @@
+/*
+ * servicio.h
+ *
+ *
+ *
+ */
+
+typedef struct
+{
+   int idServicio;
+   char descripcion[25];
+   int precio;
+   int isEmpty;
+
+}eServicio;
+
+void mostrarListadoDeServicios(eServicio lista[], int tam);
+
+#ifndef SERVICIO_H_
+#define SERVICIO_H_
+
+
+
+#endif /* SERVICIO_H_ */

@@ -1,0 +1,40 @@
+/*
+ *
+ *
+ *
+ *
+ */
+
+int validarEntero()
+{
+	int i;
+	int validar;
+	char str[20];
+	//int entero;
+
+	i=0;
+	validar=1;
+
+	scanf("%s", str);
+
+	while (str[i] != '\0')
+	{
+		if(str[i]<'0' || str[i]>'9')
+		{
+			validar=0;
+			break;
+		}
+
+		i++;
+
+	}
+
+	/*if(validar==1)
+	{
+		entero=atoi(str);
+		*numero=entero;
+
+	}*/
+
+	return validar;
+}

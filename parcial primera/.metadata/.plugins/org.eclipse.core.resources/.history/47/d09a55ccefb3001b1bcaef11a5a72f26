@@ -1,0 +1,23 @@
+/*
+ * bicicleteria.h
+ *
+ *
+ *
+ */
+
+#include "servicio.h"
+#include "trabajo.h"
+
+int menu();
+int altaTrabajo(eTrabajo lista[], int tamTrabajo, eServicio listaServicio[]);
+eTrabajo pedirDatosTrabajo(eServicio listaServicio[]);
+void modificarTrabajo(eTrabajo lista[], int tamTrabajo, eServicio listaServicio[]);
+void mostrarListadoDeTrabajos(eTrabajo lista[], int tam, eServicio listaServicio[]);
+void mostrarUnTrabajo(eTrabajo lista, eNacionalidad listaNac[], eTipoProducto listaTip[]);
+
+#ifndef BICICLETERIA_H_
+#define BICICLETERIA_H_
+
+
+
+#endif /* BICICLETERIA_H_ */

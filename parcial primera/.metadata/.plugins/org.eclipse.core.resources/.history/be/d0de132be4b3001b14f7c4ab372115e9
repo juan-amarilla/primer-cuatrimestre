@@ -1,0 +1,21 @@
+/*
+ * servicio.h
+ *
+ *
+ *
+ */
+
+typedef struct
+{
+   int id;
+   char descripcion[25];
+   int precio;
+
+}eServicio;
+
+#ifndef SERVICIO_H_
+#define SERVICIO_H_
+
+
+
+#endif /* SERVICIO_H_ */

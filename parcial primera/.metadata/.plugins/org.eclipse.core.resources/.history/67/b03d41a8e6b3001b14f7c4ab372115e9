@@ -1,0 +1,62 @@
+/*
+ ============================================================================
+Apellido: Amarilla
+Nombre: Juan Sebastian
+Division: 1B
+Fecha: 13/05/2021
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include "bicicleteria.h"
+#define T 4
+
+int main(void) {
+	eServicio servicios[T] = {{20000,"Limpieza",250},{20001,"Parche",300},{20002,"Centrado",400},{20003,"Cadena",350}};
+
+	int opcion;
+	int retorno;
+
+	setbuf(stdout, NULL);
+
+	do
+	{
+	   opcion=menu();
+
+	   switch(opcion)
+	   {
+	          case 1:
+	            retorno =  AltaProducto(listaDeProductos, T , tiposNacionalidad, tipos);
+	            if(retorno ==1)
+	            {
+	                printf("producto ingresado con exito!!!\n");
+	            }
+	            else
+	            {
+	                printf("No hay mas lugar en la lista!!\n");
+	            }
+	            break;
+
+	          case 2:
+	          break;
+
+	          case 3:
+	          break;
+
+              case 4:
+              break;
+
+              case 5:
+
+              break;
+
+              case 6:
+
+              break;
+	   }
+
+  } while(opcion!=7);
+
+
+	return 0;
+}

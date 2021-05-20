@@ -1,0 +1,16 @@
+/*
+ ============================================================================
+Apellido: Amarilla
+Nombre: Juan Sebastian
+Division: 1B
+Fecha: 13/05/2021
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}

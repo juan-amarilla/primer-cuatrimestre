@@ -1,0 +1,31 @@
+/*
+ * trabajo.h
+ *
+ *
+ *
+ */
+
+typedef struct
+{
+   int id;
+   char marcaBicicleta[30];
+   int rodadoBicicleta;
+   int idServicio;
+   int dia;
+   int mes;
+   int anio;
+   int isEmpty;
+
+}eTrabajo;
+
+void inicializarTrabajos(eTrabajo lista[], int tam);
+int buscarLibreTrabajo(eTrabajo lista[], int tamTrabajo);
+void bajaTrabajo(eTrabajo lista[], int tam);
+void mostrarListadoDeTrabajos(eTrabajo lista[], int tam,eServicio servicios);
+
+#ifndef TRABAJO_H_
+#define TRABAJO_H_
+
+
+
+#endif /* TRABAJO_H_ */

@@ -1,0 +1,11 @@
+/*
+ * trabajo.c
+ *
+ *
+ *
+ */
+
+void inicializarTrabajos(eTrabajo lista[], int tam)
+{
+
+}

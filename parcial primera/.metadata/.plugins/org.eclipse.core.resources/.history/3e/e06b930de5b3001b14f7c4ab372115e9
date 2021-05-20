@@ -1,0 +1,18 @@
+/*
+ ============================================================================
+Apellido: Amarilla
+Nombre: Juan Sebastian
+Division: 1B
+Fecha: 13/05/2021
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include "bicicleteria.h"
+#define T 3
+
+int main(void) {
+	eServicio servicios[T] = {{},{},{}};
+
+	return 0;
+}

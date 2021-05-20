@@ -1,0 +1,570 @@
+09:34:34 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo.o" "..\\src\\trabajo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\servicio.o" "..\\src\\servicio.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+..\src\prueba 1.c: In function 'main':
+..\src\prueba 1.c:29:12: warning: implicit declaration of function 'menu' [-Wimplicit-function-declaration]
+     opcion=menu();
+            ^~~~
+..\src\prueba 1.c:34:25: warning: implicit declaration of function 'altaTrabajo' [-Wimplicit-function-declaration]
+              retorno =  altaTrabajo();
+                         ^~~~~~~~~~~
+..\src\prueba 1.c:17:12: warning: unused variable 'servicios' [-Wunused-variable]
+  eServicio servicios[T] = {{20000,"Limpieza",250},{20001,"Parche",300},{20002,"Centrado",400},{20003,"Cadena",350}};
+            ^~~~~~~~~
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+src\prueba 1.o: In function `main':
+C:\Users\franco-pc\Desktop\parcial 1\prueba 1\Debug/../src/prueba 1.c:29: undefined reference to `menu'
+C:\Users\franco-pc\Desktop\parcial 1\prueba 1\Debug/../src/prueba 1.c:34: undefined reference to `altaTrabajo'
+collect2.exe: error: ld returned 1 exit status
+09:40:22 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+..\src\prueba 1.c: In function 'main':
+..\src\prueba 1.c:34:25: warning: implicit declaration of function 'altaTrabajo' [-Wimplicit-function-declaration]
+              retorno =  altaTrabajo();
+                         ^~~~~~~~~~~
+..\src\prueba 1.c:17:12: warning: unused variable 'servicios' [-Wunused-variable]
+  eServicio servicios[T] = {{20000,"Limpieza",250},{20001,"Parche",300},{20002,"Centrado",400},{20003,"Cadena",350}};
+            ^~~~~~~~~
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+src\prueba 1.o: In function `main':
+C:\Users\franco-pc\Desktop\parcial 1\prueba 1\Debug/../src/prueba 1.c:34: undefined reference to `altaTrabajo'
+collect2.exe: error: ld returned 1 exit status
+09:44:19 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'altaTrabajo':
+..\src\bicicleteria.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+10:03:14 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo.o" "..\\src\\trabajo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+Info: Nothing to build for prueba 1
+10:05:08 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+..\src\prueba 1.c: In function 'main':
+..\src\prueba 1.c:17:51: warning: excess elements in array initializer
+  eServicio servicios[T] = {{20000,"Limpieza",250},{20001,"Parche",300},{20002,"Centrado",400},{20003,"Cadena",350}};
+                                                   ^
+..\src\prueba 1.c:17:51: note: (near initialization for 'servicios')
+..\src\prueba 1.c:17:72: warning: excess elements in array initializer
+  eServicio servicios[T] = {{20000,"Limpieza",250},{20001,"Parche",300},{20002,"Centrado",400},{20003,"Cadena",350}};
+                                                                        ^
+..\src\prueba 1.c:17:72: note: (near initialization for 'servicios')
+..\src\prueba 1.c:17:95: warning: excess elements in array initializer
+  eServicio servicios[T] = {{20000,"Limpieza",250},{20001,"Parche",300},{20002,"Centrado",400},{20003,"Cadena",350}};
+                                                                                               ^
+..\src\prueba 1.c:17:95: note: (near initialization for 'servicios')
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+10:05:48 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+10:14:25 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'pedirDatosTrabajo':
+..\src\bicicleteria.c:55:32: warning: comparison between pointer and integer
+  while(miTrabajo.marcaBicicleta<1 || miTrabajo.marcaBicicleta>30)
+                                ^
+..\src\bicicleteria.c:55:62: warning: comparison between pointer and integer
+  while(miTrabajo.marcaBicicleta<1 || miTrabajo.marcaBicicleta>30)
+                                                              ^
+..\src\bicicleteria.c:58:15: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char (*)[30]' [-Wformat=]
+       scanf("%d", &miTrabajo.marcaBicicleta);
+               ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+..\src\prueba 1.c: In function 'main':
+..\src\prueba 1.c:46:13: warning: implicit declaration of function 'modificarTrabajo' [-Wimplicit-function-declaration]
+             modificarTrabajo(trabajos, T, servicios);
+             ^~~~~~~~~~~~~~~~
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+src\prueba 1.o: In function `main':
+C:\Users\franco-pc\Desktop\parcial 1\prueba 1\Debug/../src/prueba 1.c:46: undefined reference to `modificarTrabajo'
+collect2.exe: error: ld returned 1 exit status
+10:14:36 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+10:15:43 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+Info: Nothing to build for prueba 1
+10:23:29 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'modificarTrabajo':
+..\src\bicicleteria.c:102:10: warning: unused variable 'validarTip' [-Wunused-variable]
+      int validarTip;
+          ^~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+10:23:42 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+10:27:11 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo.o" "..\\src\\trabajo.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+10:37:38 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo.o" "..\\src\\trabajo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'mostrarListadoDeTrabajos':
+..\src\bicicleteria.c:163:37: error: incompatible type for argument 2 of 'mostrarUnTrabajo'
+          mostrarUnTrabajo(lista[i], listaServicio);
+                                     ^~~~~~~~~~~~~
+In file included from ..\src\bicicleteria.c:8:0:
+..\src\bicicleteria.h:16:6: note: expected 'eServicio {aka struct <anonymous>}' but argument is of type 'eServicio * {aka struct <anonymous> *}'
+ void mostrarUnTrabajo(eTrabajo unTrabajo, eServicio listaServicio);
+      ^~~~~~~~~~~~~~~~
+10:38:06 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c:169:6: error: conflicting types for 'mostrarUnTrabajo'
+ void mostrarUnTrabajo(eTrabajo unTrabajo, eServicio listaServicio)
+      ^~~~~~~~~~~~~~~~
+In file included from ..\src\bicicleteria.c:8:0:
+..\src\bicicleteria.h:16:6: note: previous declaration of 'mostrarUnTrabajo' was here
+ void mostrarUnTrabajo(eTrabajo unTrabajo, eServicio listaServicio[]);
+      ^~~~~~~~~~~~~~~~
+10:38:39 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+..\src\prueba 1.c: In function 'main':
+..\src\prueba 1.c:54:54: error: incompatible type for argument 3 of 'mostrarListadoDeTrabajos'
+                mostrarListadoDeTrabajos(trabajos, T, servicios);
+                                                      ^~~~~~~~~
+In file included from ..\src\prueba 1.c:13:0:
+..\src\bicicleteria.h:15:6: note: expected 'eServicio {aka struct <anonymous>}' but argument is of type 'eServicio * {aka struct <anonymous> *}'
+ void mostrarListadoDeTrabajos(eTrabajo lista[], int tam, eServicio listaServicio);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+10:39:09 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'mostrarListadoDeTrabajos':
+..\src\bicicleteria.c:163:37: error: incompatible type for argument 2 of 'mostrarUnTrabajo'
+          mostrarUnTrabajo(lista[i], listaServicio);
+                                     ^~~~~~~~~~~~~
+In file included from ..\src\bicicleteria.c:8:0:
+..\src\bicicleteria.h:16:6: note: expected 'eServicio {aka struct <anonymous>}' but argument is of type 'eServicio * {aka struct <anonymous> *}'
+ void mostrarUnTrabajo(eTrabajo unTrabajo, eServicio listaServicio);
+      ^~~~~~~~~~~~~~~~
+10:40:11 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'mostrarListadoDeTrabajos':
+..\src\bicicleteria.c:163:10: error: too many arguments to function 'mostrarUnTrabajo'
+          mostrarUnTrabajo(lista[i], listaServicio);
+          ^~~~~~~~~~~~~~~~
+In file included from ..\src\bicicleteria.c:8:0:
+..\src\bicicleteria.h:16:6: note: declared here
+ void mostrarUnTrabajo(eTrabajo unTrabajo);
+      ^~~~~~~~~~~~~~~~
+..\src\bicicleteria.c: At top level:
+..\src\bicicleteria.c:169:6: error: conflicting types for 'mostrarUnTrabajo'
+ void mostrarUnTrabajo(eTrabajo unTrabajo, eServicio listaServicio)
+      ^~~~~~~~~~~~~~~~
+In file included from ..\src\bicicleteria.c:8:0:
+..\src\bicicleteria.h:16:6: note: previous declaration of 'mostrarUnTrabajo' was here
+ void mostrarUnTrabajo(eTrabajo unTrabajo);
+      ^~~~~~~~~~~~~~~~
+10:41:11 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+..\src\prueba 1.c: In function 'main':
+..\src\prueba 1.c:54:16: error: too many arguments to function 'mostrarListadoDeTrabajos'
+                mostrarListadoDeTrabajos(trabajos, T, servicios);
+                ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\prueba 1.c:13:0:
+..\src\bicicleteria.h:15:6: note: declared here
+ void mostrarListadoDeTrabajos(eTrabajo lista[], int tam);
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+10:41:41 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+Info: Nothing to build for prueba 1
+10:47:03 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo.o" "..\\src\\trabajo.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+10:56:53 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\servicio.o" "..\\src\\servicio.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+Info: Nothing to build for prueba 1
+11:19:05 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+In file included from ..\src\bicicleteria.c:8:0:
+..\src\bicicleteria.h:23:71: error: conflicting types for 'lista'
+ void totalPesosDeServicio(eTrabajo lista[], int tamTrabajo, eServicio lista[], int tamServicio);
+                                                                       ^~~~~
+..\src\bicicleteria.h:23:36: note: previous definition of 'lista' was here
+ void totalPesosDeServicio(eTrabajo lista[], int tamTrabajo, eServicio lista[], int tamServicio);
+                                    ^~~~~
+11:19:29 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\servicio.o" "..\\src\\servicio.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+11:20:33 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'totalPesosDeServicio':
+..\src\bicicleteria.c:197:44: warning: 'j' may be used uninitialized in this function [-Wmaybe-uninitialized]
+           if (auxiliar[i].id==listaServicio[j].idServicio)
+                                            ^
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file prueba 1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:21:01 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'totalPesosDeServicio':
+..\src\bicicleteria.c:198:54: error: 'j' undeclared (first use in this function)
+                auxiliar[i].acumulador+=listaServicio[j].precio;
+                                                      ^
+..\src\bicicleteria.c:198:54: note: each undeclared identifier is reported only once for each function it appears in
+11:21:11 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'totalPesosDeServicio':
+..\src\bicicleteria.c:204:56: error: 'j' undeclared (first use in this function)
+         printf("el precio total es: %d", listaServicio[j].precio);
+                                                        ^
+..\src\bicicleteria.c:204:56: note: each undeclared identifier is reported only once for each function it appears in
+11:21:14 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'totalPesosDeServicio':
+..\src\bicicleteria.c:204:56: error: 'j' undeclared (first use in this function)
+         printf("el precio total es: %d", listaServicio[j].precio);
+                                                        ^
+..\src\bicicleteria.c:204:56: note: each undeclared identifier is reported only once for each function it appears in
+11:21:21 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file prueba 1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:21:28 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+11:21:43 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+Info: Nothing to build for prueba 1
+11:27:09 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo.o" "..\\src\\trabajo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+11:28:12 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\servicio.o" "..\\src\\servicio.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+11:32:55 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+Info: Nothing to build for prueba 1
+11:33:35 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'totalPesosDeServicio':
+..\src\bicicleteria.c:204:54: error: '(eAuxiliar *)&auxiliar' is a pointer; did you mean to use '->'?
+         printf("el precio total es: %d \n",  auxiliar.acumulador);
+                                                      ^
+                                                      ->
+11:34:48 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+11:35:08 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+20:52:51 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'totalPesosDeServicio':
+..\src\bicicleteria.c:189:18: error: subscripted value is neither array nor pointer nor vector
+          auxiliar[i].id=listaServicio[i].idServicio;
+                  ^
+..\src\bicicleteria.c:190:18: error: subscripted value is neither array nor pointer nor vector
+          auxiliar[i].acumulador=0;
+                  ^
+..\src\bicicleteria.c:196:23: error: subscripted value is neither array nor pointer nor vector
+           if (auxiliar[i].id==listaServicio[i].idServicio)
+                       ^
+20:53:19 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'totalPesosDeServicio':
+..\src\bicicleteria.c:189:18: error: subscripted value is neither array nor pointer nor vector
+          auxiliar[i].id=listaServicio[i].idServicio;
+                  ^
+..\src\bicicleteria.c:190:18: error: subscripted value is neither array nor pointer nor vector
+          auxiliar[i].acumulador=0;
+                  ^
+..\src\bicicleteria.c:196:23: error: subscripted value is neither array nor pointer nor vector
+           if (auxiliar[i].id==listaServicio[i].idServicio)
+                       ^
+..\src\bicicleteria.c:204:53: error: subscripted value is neither array nor pointer nor vector
+         printf("el precio total es: %d \n", auxiliar[i].acumulador);
+                                                     ^
+20:53:47 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'totalPesosDeServicio':
+..\src\bicicleteria.c:189:18: error: subscripted value is neither array nor pointer nor vector
+          auxiliar[i].id=listaServicio[i].idServicio;
+                  ^
+..\src\bicicleteria.c:190:18: error: subscripted value is neither array nor pointer nor vector
+          auxiliar[i].acumulador=0;
+                  ^
+..\src\bicicleteria.c:196:23: error: subscripted value is neither array nor pointer nor vector
+           if (auxiliar[i].id==listaServicio[i].idServicio)
+                       ^
+..\src\bicicleteria.c:198:24: error: subscripted value is neither array nor pointer nor vector
+                auxiliar[i].acumulador+=listaServicio[i].precio;
+                        ^
+..\src\bicicleteria.c:204:53: error: subscripted value is neither array nor pointer nor vector
+         printf("el precio total es: %d \n", auxiliar[i].acumulador);
+                                                     ^
+..\src\bicicleteria.c:185:16: warning: variable 'auxiliar' set but not used [-Wunused-but-set-variable]
+      eAuxiliar auxiliar;
+                ^~~~~~~~
+20:54:09 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+20:54:53 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+21:21:28 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo.o" "..\\src\\trabajo.c" 
+..\src\trabajo.c: In function 'ordenarTrabajosPorAnio':
+..\src\trabajo.c:97:54: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+              else if(lista[i].anio==lista[j].anio && strcmp(lista[i].marcaBicicleta , lista[j].marcaBicicleta)>0)
+                                                      ^~~~~~
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file prueba 1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:21:35 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+Info: Nothing to build for prueba 1
+21:37:48 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\servicio.o" "..\\src\\servicio.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" 
+Info: Nothing to build for prueba 1
+21:52:34 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'pedirDatosTrabajo':
+..\src\bicicleteria.c:53:10: warning: implicit declaration of function 'validarEntero' [-Wimplicit-function-declaration]
+  validar=validarEntero(idStr);
+          ^~~~~~~~~~~~~
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+21:53:54 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'pedirDatosTrabajo':
+..\src\bicicleteria.c:53:10: warning: implicit declaration of function 'validarEntero' [-Wimplicit-function-declaration]
+  validar=validarEntero(idStr);
+          ^~~~~~~~~~~~~
+..\src\bicicleteria.c:61:15: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  miTrabajo.id=atoi(idStr);
+               ^~~~
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+21:55:33 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'pedirDatosTrabajo':
+..\src\bicicleteria.c:61:15: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  miTrabajo.id=atoi(idStr);
+               ^~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+21:55:55 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+Info: Nothing to build for prueba 1
+22:03:31 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'pedirDatosTrabajo':
+..\src\bicicleteria.c:76:2: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+  strcpy(miTrabajo.marcaBicicleta, marcaStr);
+  ^~~~~~
+..\src\bicicleteria.c:76:2: warning: incompatible implicit declaration of built-in function 'strcpy'
+..\src\bicicleteria.c:76:2: note: include '<string.h>' or provide a declaration of 'strcpy'
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+22:03:52 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+Info: Nothing to build for prueba 1
+22:04:47 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+22:09:49 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+22:17:02 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+22:19:34 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'pedirDatosTrabajo':
+..\src\bicicleteria.c:97:23: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+     while( validar==0 && atoi(idServicioStr)<20000 || validar==0 && atoi(idServicioStr)>20003 )
+            ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+22:19:56 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+Info: Nothing to build for prueba 1
+22:24:45 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+22:26:54 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+22:30:07 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+..\src\bicicleteria.c: In function 'pedirDatosTrabajo':
+..\src\bicicleteria.c:53:6: warning: unused variable 'auxiliar' [-Wunused-variable]
+  int auxiliar;
+      ^~~~~~~~
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+22:30:22 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+Info: Nothing to build for prueba 1
+Info: Nothing to build for prueba 1
+22:37:35 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+Info: Nothing to build for prueba 1
+22:39:41 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+22:44:24 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo.o" "..\\src\\trabajo.c" 
+..\src\trabajo.c: In function 'bajaTrabajo':
+..\src\trabajo.c:57:18: warning: implicit declaration of function 'validarEntero' [-Wimplicit-function-declaration]
+          validar=validarEntero(idStr);
+                  ^~~~~~~~~~~~~
+..\src\trabajo.c:65:13: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+          id=atoi(idStr);
+             ^~~~
+..\src\trabajo.c: In function 'ordenarTrabajosPorAnio':
+..\src\trabajo.c:109:54: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+              else if(lista[i].anio==lista[j].anio && strcmp(lista[i].marcaBicicleta , lista[j].marcaBicicleta)>0)
+                                                      ^~~~~~
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+22:44:46 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo.o" "..\\src\\trabajo.c" 
+..\src\trabajo.c: In function 'bajaTrabajo':
+..\src\trabajo.c:59:18: warning: implicit declaration of function 'validarEntero' [-Wimplicit-function-declaration]
+          validar=validarEntero(idStr);
+                  ^~~~~~~~~~~~~
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+22:46:00 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\prueba 1.o" "..\\src\\prueba 1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajo.o" "..\\src\\trabajo.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+Info: Nothing to build for prueba 1
+22:49:41 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+22:52:11 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+22:54:00 **** Incremental Build of configuration Debug for project prueba 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bicicleteria.o" "..\\src\\bicicleteria.c" 
+gcc -o "prueba 1.exe" "src\\bicicleteria.o" "src\\prueba 1.o" "src\\servicio.o" "src\\trabajo.o" "src\\validaciones.o" 
+Info: Nothing to build for prueba 1

@@ -1,0 +1,16 @@
+/*
+ * servicio.c
+ *
+ *
+ *
+ */
+
+#include "servicio.h"
+#define VACIO 0
+#define OCUPADO 1
+#include <stdio.h>
+
+void mostrarListadoDeServicios(eServicio lista[], T)
+{
+
+}
